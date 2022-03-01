@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0OzFLX11JXzZcp8d61fz+s2Q+LvM/PpSTeiTqQfFOLI0fO7v/PE2/a6P/mm9p9+UOFyAM4ZbZEAoT1SyntX4Rg==",
+  "dgSpecHash": "52hzKgveYaiOQZdaVcobfLu3wEAfFSjPR41rnCV6xYq5V2I/pt2BRIWRnSBNSF7ADYw0c0/9HaV/5jP0eN8DiQ==",
   "success": true,
-  "projectFilePath": "/Users/elnur/Desktop/C#/AspNetPractise/AspNetPractise/AspNetPractise.csproj",
+  "projectFilePath": "/Users/elnur/Desktop/Allup_Front_to_Back/Allup_Front_to_Back/AspNetPractise/AspNetPractise/AspNetPractise.csproj",
   "expectedPackageFiles": [
     "/Users/elnur/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/elnur/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.14/microsoft.aspnetcore.jsonpatch.5.0.14.nupkg.sha512",

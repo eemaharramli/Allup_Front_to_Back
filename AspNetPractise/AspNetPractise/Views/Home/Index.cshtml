@@ -83,7 +83,7 @@
                         @Html.Raw("<div class='col-lg-2'>")
                     }
                         <div class="single-category text-center">
-                            <a target="_blank" href="shop-left-sidebar.html">
+                            <a asp-controller="Category" asp-action="Index" asp-route-id="@item.Id">
                                 <img src="~/assets/images/@item.Image" alt="category @item.Name">
                                 <p>@item.Name</p>
                             </a>
