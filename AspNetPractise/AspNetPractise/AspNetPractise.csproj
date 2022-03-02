@@ -6,6 +6,29 @@
 
     <ItemGroup>
       <_ContentIncludedByDefault Remove="wwwroot\css\site.css" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Account\ChangePassword.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Account\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Category\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Category\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Category\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Category\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Category\Update.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Blog\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Blog\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Blog\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\SliderImage\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\SliderImage\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\SliderImage\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\SliderImage\Update.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Product\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Product\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Product\Detail.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Product\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Expert\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Expert\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Expert\Detail.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Expert\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\AdminPanel\Views\Expert\Update.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
@@ -15,6 +38,11 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+      <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Areas\AdminPanel\Models" />
     </ItemGroup>
 
 </Project>

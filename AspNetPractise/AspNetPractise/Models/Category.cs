@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Http;
 
 namespace AspNetPractise.Models
 {
@@ -11,5 +13,7 @@ namespace AspNetPractise.Models
         public bool IsDeleted { get; set; }
         public Category Parent { get; set; }
         public List<Category> Children { get; set; }
+        [NotMapped]
+        public IFormFile Photo { get; set; }
     }
 }
